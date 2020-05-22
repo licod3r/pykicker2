@@ -1,6 +1,6 @@
-from Pokemon import Pokemon
+from game.Character import Character
 
 print("Mr Blin is an idiot!")
 
-pokemon = Pokemon("Pikatchu")
-pokemon.gruesse();
+lion = Character("Lion")
+print("Here is %s" % lion.name)
