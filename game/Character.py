@@ -10,4 +10,6 @@ class Character:
     @name.setter
     def name(self, name):
         self.__name = name
+    
+    
 
